@@ -1,0 +1,37 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "*"
+pathlib = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+imutils = "*"
+easydict = "*"
+tqdm = "*"
+pycaret = "*"
+autogen-agentchat = "==0.4.0dev0"
+autogen-core = "==0.4.0dev0"
+autogen-ext = "==0.4.0dev0"
+yfinance = "*"
+pytz = "*"
+python-dotenv = "*"
+requests = "*"
+bs4 = "*"
+arxiv = "*"
+markdown = "*"
+markdown2 = "*"
+openai = "*"
+autogen = "*"
+groq = "*"
+chess = "*"
+
+[dev-packages]
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
